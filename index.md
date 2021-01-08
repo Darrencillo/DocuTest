@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <title>Embebiendo del un repositorio</title>
+    <title>Prueba repositorio</title>
     <meta charset="utf-8" />
   </head>
 
