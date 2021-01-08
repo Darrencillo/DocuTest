@@ -1,4 +1,3 @@
-<object type="text/html" data="" width="1000" height="700"></object>
 <html>
 
   <head>
