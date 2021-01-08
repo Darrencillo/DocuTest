@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'DocuTest', // Title for your website.
-  tagline: 'A website for testing',
+  title: 'Prueba Docusaurus Dario', // Title for your website.
+  tagline: 'Hay que cambiar varias cosas...',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -38,11 +38,12 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
+    {doc: 'doc1', label: 'Documentos'},
+    {doc: 'doc4', label: 'Visitanos'},
+    {page: 'help', label: 'Ayuda'},
     {blog: true, label: 'Blog'},
-    {blog: true, label: 'BlogDario'},
+    {doc: 'doc2', label: 'Dario'},
+   
   ],
 
   // If you have users set above, you add it here:
@@ -55,26 +56,23 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#1f8719',
-    secondaryColor: '#155e11',
+    primaryColor: '#00BDCE',
+    secondaryColor: '#005D65',
   },
 
   /* Custom fonts for website */
   /*
   fonts: {
     myFont: [
-      "Times New Roman",
-      "Serif"
+      "Century Gothic",
+      
     ],
-    myOtherFont: [
-      "-apple-system",
-      "system-ui"
-    ]
+    
   },
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Joaquin`,
+  copyright: `Copyright © ${new Date().getFullYear()} Todos los derechos reservados para Grupo Aqualai`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
